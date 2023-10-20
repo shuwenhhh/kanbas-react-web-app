@@ -1,0 +1,9 @@
+.nav-link{
+    color: #cc0000;
+}
+.custom-dropdown-btn {
+    background-color: transparent; /* Set the background to transparent */
+    border: 1px solid black; /* Add a black border */
+    color: black; /* Set text color to black */
+    width:350px
+  }

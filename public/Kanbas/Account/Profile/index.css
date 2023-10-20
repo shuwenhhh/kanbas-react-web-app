@@ -1,0 +1,15 @@
+
+.inline-block{
+    display: inline-block;
+}
+.mr-200{
+    margin-right: 200px;
+}
+a{
+    color: #cc0000;
+}
+.red-button{
+    background-color: #cc0000;
+    color:white;
+}
+

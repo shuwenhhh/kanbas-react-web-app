@@ -1,0 +1,17 @@
+.courseStatus .btn{
+    border-radius: 0;
+    background-color: #DCDCDC ;
+    color:rgb(64,64,64)	;
+    border: 0;
+}
+.courseStatus .green-button{
+    background-color: green;
+    color:white;
+}
+.courseStatus  .link-list a{
+    color:#cc0000;
+    text-decoration: none;
+}
+.courseStatus .btn-300{
+    width:300px
+}

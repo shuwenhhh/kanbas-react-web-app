@@ -1,0 +1,30 @@
+body {
+    margin : 0;
+    padding : 0;
+
+}
+body * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wd-main-css-heading{
+    color:green;
+    background-color: white;
+}
+.wd-flex-row-container{
+    display: flex;
+}
+.wd-bg-color-blue{
+    background-color:blue;
+}
+.btn{
+    border-radius: 0;
+    background-color: #DCDCDC ;
+    color:rgb(64,64,64)	;
+    border: 0;
+}
+.breadcrumb-item a{
+    text-decoration: none;
+}
+.list-group-item a{
+    text-decoration: none;
+}
