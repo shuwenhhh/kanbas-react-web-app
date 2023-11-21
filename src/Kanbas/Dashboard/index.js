@@ -5,31 +5,6 @@ import './index.css';
 
 function Dashboard({ courses, course, setCourse, addNewCourse,
   deleteCourse, updateCourse }) {
-  // const [courses, setCourses] = useState(db.courses);
-  // const [course, setCourse] = useState({
-  //   name: "New Course",      number: "New Number",
-  //   startDate: "2023-09-10", endDate: "2023-12-15",
-  // });
-  // const addNewCourse = () => {
-  //   setCourses([...courses,
-  //             { ...course,
-  //               _id: new Date().getTime() }]);
-  // };
-  // const deleteCourse = (courseId) => {
-  //   setCourses(courses.filter((course) => course._id !== courseId));
-  // };
-  // const updateCourse = () => {
-  //   setCourses(
-  //     courses.map((c) => {
-  //       if (c._id === course._id) {
-  //         return course;
-  //       } else {
-  //         return c;
-  //       }
-  //     })
-  //   );
-  // };
-
   const generateRandomColor = () => {
     const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
     return randomColor;
@@ -116,41 +91,3 @@ function Dashboard({ courses, course, setCourse, addNewCourse,
 export default Dashboard;
 
 
-// <h2>Published Courses</h2>
-// <hr />
-// </div>
-// </div>
-// {/* card */}
-// <div className="container-fluid">
-// <div className="row ">
-// {db.courses.map((course) => (
-// <div className="col col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 ">
-// <div className="card h-100 ">
-// <div
-//         style={{
-//           backgroundColor: generateRandomColor(),
-//           height: "150px", // 设置高度
-//           width: "100%",   // 设置宽度
-//         }}
-//         className="card-img-top"
-//       ></div>
-//   <div className="card-body">
-//   <Link
-//   key={course._id}
-//   to={`/Kanbas/Courses/${course._id}`}
-// >
-//   {course.name} 
-// </Link>              
-// <p className="card-text">{course.number}  {course._id}</p>
-//     <i className="fa-solid fa-pen-to-square"></i>
-//     <BsPencilSquare />
-//   </div>
-// </div>
-// </div>
-// ))}
-// </div>
-// </div>
-// </>
-// );
-// }
-// export default Dashboard;
