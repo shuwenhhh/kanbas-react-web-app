@@ -12,8 +12,8 @@ export const createModule = async (courseId, module) => {
     const response = await axios.post(
       `${COURSES_URL}/${courseId}/modules`,
       module
-    );
-    console.log(response.data);
+    );  
+     console.log( response.data);
     return response.data;
   };
   
