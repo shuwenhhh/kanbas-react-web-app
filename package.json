@@ -46,7 +46,6 @@
     ]
   },
   "devDependencies": {
-    "prettier": "^3.0.3",
-    "react-router-dom": "^6.17.0"
+    "prettier": "^3.0.3"
   }
 }
